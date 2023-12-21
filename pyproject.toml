@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "azure-data-engg"
+version = "0.1.0"
+description = "Its Project for learning and mastering Azure Data Tech Stack"
+authors = ["Sameer Chaudhari"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+pandas2 = "pytorch"
+
+[tool.poetry.group.dev.dependencies]
+keras = "^3.0.1"
+jax = "^0.4.23"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
